@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the saved model
-with open(r"P:/Documents(p)/Python_Advance/ML Project/Diabetes_Prediction/diabetes_prediction_model.pkl", 'rb') as file:
+with open("diabetes_prediction_model.pkl", 'rb') as file:
     model = pickle.load(file)
 
 # Function to make predictions
